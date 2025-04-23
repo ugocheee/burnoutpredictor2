@@ -4,7 +4,7 @@ import pandas as pd
 # Load predictions CSV
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/your-username/your-repo-name/main/predicted_burn_rate.csv"
+    url = "https://github.com/ugocheee/burnoutpredictor2/blob/main/predicted_burn_rate.csv"
     return pd.read_csv(url)
 
 data = load_data()
